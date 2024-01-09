@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Cascade</title>
+  <link rel="stylesheet" href="./solution.css">
+</head>
+<body>
+  <div class="outer-box">
+    Text inside outer-box, outside box
+    <div class="box">
+      <p>Yellow Text inside box</p>
+      <div class="box inner-box">
+        text inside inner text
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+    Text middle of boxes
+    <div class="box" id="box2">
+      <p>Yellow Text 2</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text 2</p>
+      </div>
+      text inside box2
+    </div>
+    text again outside box2
+  </div>
+</html>
